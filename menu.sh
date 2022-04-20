@@ -7,7 +7,7 @@
 
 source /etc/functions.sh
 
-RESULT=$(dialog --stdout --default-item 1 --title "Afiniel yiimpool Setup Installer v4.7.2" --menu "Choose one" -1 60 6 \
+RESULT=$(dialog --stdout --default-item 1 --title "Afiniel yiimpool Setup Installer v4.7.3" --menu "Choose one" -1 60 6 \
 ' ' "- For small private pools -" \
 1 "YiiMP - Single Server" \
 ' ' "- If you plan on adding more servers later (Advanced)-" \
