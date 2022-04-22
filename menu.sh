@@ -8,7 +8,7 @@
 source /etc/functions.sh
 
 RESULT=$(dialog --stdout --default-item 1 --title "Afiniel yiimpool Setup Installer v4.7.5" --menu "Choose one" -1 60 6 \
-' ' "- For small private pools -" \
+' ' "- For Mid range size pools RECOMMEENDED 4-8GB RAM -" \
 1 "YiiMP - Single Server with out wireguard" \
 ' ' "- If you are going to add more servers later -" \
 2 "YiiMP - Single Server with WireGuard" \
