@@ -9,8 +9,8 @@ source /etc/functions.sh
 
 RESULT=$(dialog --stdout --default-item 1 --title "Afiniel yiimpool Setup Installer v4.7.3" --menu "Choose one" -1 60 6 \
 ' ' "- For small private pools -" \
-1 "YiiMP - Single Server" \
-' ' "- If you plan on adding more servers later (Advanced)-" \
+1 "YiiMP - Single Server with out wireguard" \
+' ' "- If you are going to add more servers later -" \
 2 "YiiMP - Single Server with WireGuard" \
 3 Exit)
 if [ $RESULT = ]
